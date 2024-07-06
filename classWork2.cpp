@@ -5,9 +5,9 @@ using namespace std;
 int main(){
 
     char c1='@', c2='$', c3='#';
-    for(int i = 1; i <6; i++){
+    for(int i = 1; i <6; i++){//For 'Rows'
 
-       for(int j = 1; j <=i; j++){
+       for(int j = 1; j <=i; j++){//For 'Columns'
 
         if(i==1) cout<<c1;
         else if(i==3) cout<<c2;

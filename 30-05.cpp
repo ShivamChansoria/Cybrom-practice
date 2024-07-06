@@ -11,7 +11,7 @@ int main(){
     char c1= 'aggeedf';//Takes only last one character and does not throw an error!!
     float b3=   4.3933  ;
     int a=10, b;
-    b=a++;
+    b=a++;//Will update the variable after assigning the value to 'b'.
     
     cout<<"Value of a is: "<< a<<endl;
     cout<<"Value of b is: "<< b<<endl;

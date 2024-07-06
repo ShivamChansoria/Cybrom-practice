@@ -9,7 +9,7 @@ int main(){
     cout<<"The values of a and b respectively: "<<a<<" "<<b<<" "<<endl;
     a=a*b;
     b=a/b;
-    a=a/b;
+    a=a/b;//Here value of 'b' is changed!
     cout<<"The values of a and b respectively: "<<a<<" "<<b<<" "<<endl;
     
 return 0;

@@ -11,7 +11,7 @@ int main(){
 return 0;
 }
 
-// global=500; Throws error, becuase we need a function scope to do anything!!!!!!!!!!!!!!!!!!!:)
+// global=500; Throws error, becuase we need a function scope to do anything, after "main"!!!!!!!!!!!!!!!!!!!:)
 
 int fun(){//2--->Function Definition
     global=9999;

@@ -13,8 +13,8 @@ int main(){
         goto here;
     } 
 
-    bool isPrime(int);
-    bool prime=isPrime(number);
+    bool isPrime(int);//1.Fn Decl
+    bool prime=isPrime(number);//3.Fn Call
     if(prime==false){
         cout<<"The number is not a prime!!"<<endl;
     }
@@ -23,7 +23,7 @@ int main(){
 return 0;
 }
 
-bool isPrime(int number){
+bool isPrime(int number){//2. Fn Defl
      if(number==2) return true;
     for (int i = number-1; i>2; i--)
     {
