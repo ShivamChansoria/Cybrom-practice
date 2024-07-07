@@ -8,6 +8,7 @@ int main(){
     // { Can be run same as the normal for loop program.
       cout<<"The value of "<<table<<" * "<<i<<" will be: "<<table*i<<endl;
     // }
+    for(;;i++)//Could be run same as the normal for loop program.
     
 return 0;
 }

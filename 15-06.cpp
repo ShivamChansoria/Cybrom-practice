@@ -9,7 +9,7 @@ int main(){
        cout<<arr[i]<<" ";
     }
     arr[9]=100;//Extra index can be added later on the pre defined array!!
-    cout<<arr[9];
+    cout<<arr[8]<<" "<<arr[9];//Value 8 is inserted automatically by default in between free index.
     
 return 0;
 }

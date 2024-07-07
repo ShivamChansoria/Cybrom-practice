@@ -1,4 +1,4 @@
-//While for the User Handle.
+//****************While is used for the User to Handle the loop.
 #include<iostream>
 using namespace std;
 

@@ -1,5 +1,5 @@
-//ASCII Values for Small Alphabets: 65-90
-//ASCII Values for Capital Alphabets: 97-122
+//ASCII Values for Capital Alphabets: 65-90
+//ASCII Values for Small Alphabets: 97-122
 //ASCII Values for Digits: 48-57
 
 #include<iostream>
@@ -17,7 +17,8 @@ int main(){
         cout<<"The input is a Number!";
     }
     else{
-        cout<<"The input is a Special Character!";
+        cout<<"The input is a Special Character!"<<endl;
     }
+
 return 0;
 }

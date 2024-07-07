@@ -1,3 +1,4 @@
+//***************************************** Built-in Char & String Functions ***************************************/
 #include<iostream>
 using namespace std;
 
@@ -17,17 +18,18 @@ int main(){
     cout<<str1.find("riya")<<endl;//Returns the index of the first character of matching.
     str1.insert(6," Chandra");
     str1.erase(6, 8);//Provide the first index and the length to be removed.
-    cout<<str1.at(7)<<endl;
+    cout<<"String at index 7: "<<str1.at(7)<<endl;
     string sub= str1.substr(13);
     sub.replace(0,1, "R");
     cout<<sub<<endl;
-    cout<<str1.compare(sub)<<endl;
-    cout<<str1<<endl;
+    cout<<"Comparing the String with substring: "<<str1.compare(sub)<<endl;
+    cout<<"Printing the substring: "<<str1<<endl;
     cout<<str1.length()<<endl;
 
     for(int i=0; i<str1.length(); i++){
         str1[i] = toupper(str1[i]);
     }
+    
     cout<<str1<<endl;
     for(int i=1; i<str1.length(); i++){
         str1[i] = tolower(str1[i]);

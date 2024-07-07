@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 
+//Union does only allots the single memory of the largest data member.
 union book{
     int page;
     char name[8];//Allotes the size of 8 bytes to a object.

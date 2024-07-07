@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+    
     int a[6];
     int min, max=0;
     for (int i = 0; i <6; i++)
