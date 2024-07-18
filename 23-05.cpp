@@ -1,4 +1,4 @@
-#include<iostream>//# is here preprocessor directive & these files are in "Precompiled" format!!
+#include<iostream>//# is here 'preprocessor' directive & these files are in "Precompiled" format!!
 //These preprocessors are not included in the entire code and can also include normal files by using "" instead of <>.
 using namespace std;
 
