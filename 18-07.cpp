@@ -17,7 +17,7 @@ class P{
         a=x;
         b=y;
     }
-    void sum(){
+    virtual void sum(){//************************ Now this will resolve the run time polymorphism ************************** */
         cout<<"Parent class constructor() called."<<endl;
         cout<<"The sum of a and b is: "<<a+b<<endl;
     }
@@ -49,6 +49,7 @@ int main(){
     P p1, *ptr;//*************** Pointer will also calls Constructor !!! ********************************************/
     c1.sum();
     ptr=&p1;//****************** Parent class pointer can also saves child class object. ****************************/
-    ptr->sum();//*************** Will invokes the sum function of 'parent' class instead of 'child' class ***********/
+    ptr->sum();//*************** Will invokes the sum() function of 'parent' class instead of 'child' class *********/
+    
 return 0;
 }

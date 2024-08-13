@@ -9,11 +9,8 @@ int main(){
     {
         for (int j = 1; j <= i; j++) // Here the loop is run for the whole columns so we run it until 'n' is reached!!!
         {
-            if(i%2 == 0){
-              cout << char(j + 64) << " ";  
-            }
-            else
-            cout << char(j + 96) << " "; // Using the 'j' for incrementing the alphabetic character.
+           cout<<i<<" ";
+            // Using the 'j' for incrementing the alphabetic character.
         }
         // ascii++;
         cout << endl;
